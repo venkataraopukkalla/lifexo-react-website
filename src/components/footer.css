@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+.footer{
+    background-color: #1F1669;
+}
+
+.footer-container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+.address{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.address h2{
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    
+}
+.address h4{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.info h2{
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.8rem;
+}
+.info p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.copyright p{
+    font-size: 1.25rem;
+    color: white;
+    padding: 2rem;
+}
+.copyright p i{
+    padding: 0.5rem;
+}

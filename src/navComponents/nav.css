@@ -1,0 +1,82 @@
+
+*{
+  margin: 0;
+}
+
+.nav-container {
+    background-color: #1F1669;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: white;
+  }
+  .nav-item {
+    padding-right: 25px;
+    display: flex;
+    
+    
+  }
+  .nav-item ul {
+    display: flex;
+    text-decoration: none;
+
+    gap: 20px;
+    margin-left: 8rem;
+    list-style: none;
+    color:white;
+    gap: 1em;
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    font-family: 'Young Serif', serif;
+    justify-content: center;
+    align-content: center;
+    font-size: 19px;
+  }
+  
+  /* Center the icons vertically within .nav-menu */
+  .nav-menu {
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+  }
+  
+  /* Style for the icon elements */
+  .nav-menu .icon {
+    font-size: 2rem;
+    color: white;
+  }
+  .usericon{
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .nav-menu {
+      display: flex;
+    }
+    .nav-container {
+      flex-direction: column;
+      align-items: start;
+    }
+    .nav-item ul {
+      flex-direction: column;
+    }
+    .nav-item .open {
+      display: flex;
+    }
+    .nav-item .close {
+      display: none;
+    }
+  }
+  

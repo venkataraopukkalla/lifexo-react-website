@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.services-container{
+    margin-bottom: 4rem;
+}
+
+.services-container .services-title{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.services-title h2{
+    font-size: 2rem;
+    color: red;
+}
+.services-title p{
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #454545;
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #ECE8DD;
+    flex-direction: column;
+}
+
+.cards-container img{
+    width: 80px;
+    height: 100px;  
+    padding: 1.7rem; 
+    
+}
+.cards-container h2{
+    font-family: sans-serif;
+    color: #454545;
+}
+.cards-container .info{
+    padding: 1rem;
+    text-align: center;
+    color: #454545;
+      
+}
+.cards-container .readmore{
+    padding: 0.8rem;
+    border: 3px solid rgb(38, 20, 136);
+    background-color: #3085C3;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+.cards-container .readmore:hover{
+    background-color: #9EDDFF;
+}
+.services-grid{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3,1fr)
+}
+.services-viewall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-viewall button{
+    margin: 2rem;
+    padding:0.8rem 2rem;
+    background-color: #614BC3;
+    color: white;
+    font-style: unset;
+    font-weight: 900;
+}
+@media (max-width:768px) {
+    .services-grid{
+        grid-template-columns: 1fr;
+
+    }
+    
+}
