@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lifexo-react-website/static/css/main.cf740a92.css",
+    "main.js": "/lifexo-react-website/static/js/main.409fa89f.js",
+    "index.html": "/lifexo-react-website/index.html",
+    "main.cf740a92.css.map": "/lifexo-react-website/static/css/main.cf740a92.css.map",
+    "main.409fa89f.js.map": "/lifexo-react-website/static/js/main.409fa89f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf740a92.css",
+    "static/js/main.409fa89f.js"
+  ]
+}
